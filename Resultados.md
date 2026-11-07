@@ -2,19 +2,19 @@
 
 *Datasets originales: `BD_2014.xlsx` a `BD_2024.xlsx`* Hoja `Data`.
 
-| Año  | Días | Horas esperadas por estación | Filas del original | Filas de VAL en el limpio |
-| ---- | ---- | ---------------------------- | ------------------ | ------------------------- |
-| 2014 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2015 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2016 | 366  | 8,784 (año bisiesto)         | [completar]        | 8,784                     |
-| 2017 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2018 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2019 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2020 | 366  | 8,784 (año bisiesto)         | [completar]        | 8,784                     |
-| 2021 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2022 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2023 | 365  | 8,760                        | [completar]        | 8,760                     |
-| 2024 | 366  | 8,784 (año bisiesto)         | [completar]        | 8,784                     |
+| Año  | Días | Horas esperadas por estación | Filas del original | Estaciones | Filas de VAL en el limpio |
+| ---- | ---- | ---------------------------- | ------------------ | ---------- | ------------------------- |
+| 2014 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2015 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2016 | 366  | 8,784 (año bisiesto)         | 87,840 | 10 | 8,784                     |
+| 2017 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2018 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2019 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2020 | 366  | 8,784 (año bisiesto)         | 87,840 | 10 | 8,784                     |
+| 2021 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2022 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2023 | 365  | 8,760                        | 87,600 | 10 | 8,760                     |
+| 2024 | 366  | 8,784 (año bisiesto)         | 114,192 | 13 (las 10 de 2023 más `COU`, `SAN` y `SMT`) | 8,784                     |
 
 1. Son 11 archivos, uno por año, con datos de varias estaciones de la red SINAICA.
 2. No están filtrados por estación ni por el alcance del análisis.
